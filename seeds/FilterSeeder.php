@@ -12,7 +12,6 @@ class FilterSeeder extends Seeder
      */
     public function run()
     {
-        //
         DB::table('filter')->insert([
             'id' => 1,
             'name' => 'all',
